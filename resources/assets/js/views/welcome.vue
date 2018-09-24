@@ -8,6 +8,7 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="login">Авторизация</b-nav-item>
         <b-nav-item href="register">Регистрация</b-nav-item>
+        <b-nav-item href="fresh-vacansies">Свежие вакансии</b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -18,7 +19,7 @@
 			<h1 style="font-weight:bold">WorkTracker</h1>
 			<div style="font-size:150%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
 
-		<a href="find-work"><b-button  class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
+		<a href="find-work"><b-button class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
 		<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Предложить работу</b-button>
         </b-col>
 

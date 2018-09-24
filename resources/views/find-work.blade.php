@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="app">
-  <register></register>
+  <findwork></findwork>
 </div>
 </body>
 </html>

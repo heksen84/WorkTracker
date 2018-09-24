@@ -7,6 +7,7 @@ import welcome  from './views/welcome.vue';
 import login from './views/login.vue';
 import register from './views/register.vue';
 import listworks from './views/listworks.vue';
+import findwork from './views/findwork.vue';
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -54,6 +55,7 @@ const app = new Vue({
       welcome,
       login,
       register,
-      listworks
+      listworks,
+      findwork
   }
 });
