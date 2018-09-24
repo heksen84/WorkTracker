@@ -1775,7 +1775,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -47300,8 +47299,6 @@ var render = function() {
             "b-col",
             { staticClass: "greyText", attrs: { cols: "12" } },
             [
-              _c("br"),
-              _vm._v(" "),
               _c("h1", { staticStyle: { "font-weight": "bold" } }, [
                 _vm._v("WorkTracker")
               ]),

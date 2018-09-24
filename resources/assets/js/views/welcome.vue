@@ -15,7 +15,6 @@
 
     <b-row class="text-center">
         <b-col class="greyText" cols="12">
-			<br>			
 			<h1 style="font-weight:bold">WorkTracker</h1>
 			<div style="font-size:150%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
 
