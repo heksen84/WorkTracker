@@ -47300,9 +47300,10 @@ var render = function() {
                 {
                   staticStyle: {
                     "font-size": "124%",
-                    "margin-top": "-15px",
+                    "margin-top": "-12px",
                     "margin-bottom": "17px",
-                    "letter-spacing": "5px"
+                    "letter-spacing": "5px",
+                    color: "rgb(100,100,250)"
                   }
                 },
                 [_vm._v("Сайт на котором есть работа")]
