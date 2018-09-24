@@ -8,7 +8,7 @@
   <meta name="description" content="работа">
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
-  <title>Работа в Казахстане</title>
+  <title>ОТБАКЕ - Работа в Казахстане</title>
   <link rel="icon" href="{{ asset('public/shop.ico') }}">
 </head>
 <body>
