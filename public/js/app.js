@@ -47435,7 +47435,7 @@ var render = function() {
                 [
                   _c(
                     "b-form-group",
-                    { attrs: { label: "Поиск работы по должности:" } },
+                    { attrs: { label: "Поиск работы по специальности:" } },
                     [
                       _c("b-form-input", {
                         staticClass: "mb-0 mr-sm-0 mb-sm-0",
@@ -47443,7 +47443,7 @@ var render = function() {
                         attrs: {
                           type: "text",
                           placeholder:
-                            "Введите название должности, например: электрик"
+                            "Введите название специальности, например: электрик"
                         },
                         model: {
                           value: _vm.search,

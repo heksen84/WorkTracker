@@ -26,8 +26,8 @@
 <b-row style="margin-top:5%">
 <b-col>	
 <b-form inline style="margin:auto;width:500px">
-<b-form-group label="Поиск работы по должности:">
-		<b-form-input type="text" placeholder="Введите название должности, например: электрик" class="mb-0 mr-sm-0 mb-sm-0" style="width:420px" v-model="search"></b-form-input>
+<b-form-group label="Поиск работы по специальности:">
+		<b-form-input type="text" placeholder="Введите название специальности, например: электрик" class="mb-0 mr-sm-0 mb-sm-0" style="width:420px" v-model="search"></b-form-input>
 		<b-button variant="primary" style="margin-left:5px" @click="searchData">Найти</b-button>
 </b-form-group>
 </b-form>
