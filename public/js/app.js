@@ -1649,15 +1649,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
+var items = [{ isActive: true, age: 40, first_name: 'Dickerson', last_name: 'Macdonald' }, { isActive: false, age: 21, first_name: 'Larsen', last_name: 'Shaw' }, { isActive: false, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }];
+
 /* harmony default export */ __webpack_exports__["default"] = ({
-				mounted: function mounted() {},
-
-				methods: {
-								hello: function hello() {
-												alert("приветики");
-								}
-				}
-
+  data: function data() {
+    return {
+      items: items
+    };
+  }
 });
 
 /***/ }),
@@ -1677,16 +1676,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+
+var items = [{ isActive: true, age: 40, first_name: 'Dickerson', last_name: 'Слесарюга' }, { isActive: true, age: 21, first_name: 'Larsen', last_name: 'Shaw' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }];
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-				mounted: function mounted() {},
-
-				methods: {
-								hello: function hello() {
-												alert("приветики");
-								}
-				}
-
+  data: function data() {
+    return {
+      items: items
+    };
+  }
 });
 
 /***/ }),
@@ -47285,11 +47284,16 @@ var render = function() {
     [
       _c(
         "b-row",
-        { staticClass: "text-center" },
         [
-          _c("b-col", { staticClass: "greyText" }, [
-            _c("h1", [_vm._v("найти работу")])
-          ])
+          _c(
+            "b-col",
+            [
+              _c("b-table", {
+                attrs: { striped: "", hover: "", items: _vm.items }
+              })
+            ],
+            1
+          )
         ],
         1
       )
@@ -47503,14 +47507,20 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
+    { staticClass: "greyText" },
     [
+      _c("h1", [_vm._v("вакансии")]),
+      _vm._v(" "),
       _c(
         "b-row",
         { staticClass: "text-center" },
         [
-          _c("b-col", { staticClass: "greyText" }, [
-            _c("h1", [_vm._v("Результаты")])
-          ])
+          _c(
+            "b-col",
+            { staticClass: "greyText" },
+            [_c("b-table", { attrs: { hover: "", items: _vm.items } })],
+            1
+          )
         ],
         1
       )

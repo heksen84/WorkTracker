@@ -1,22 +1,27 @@
 <template>
-<b-container>
+<b-container class="greyText">
+    <h1>вакансии</h1>
     <b-row class="text-center">
         <b-col class="greyText">
-		<h1>Результаты</h1>
+	<b-table hover :items="items"></b-table>
 	</b-col>
     </b-row>
 </b-container>
 </template>
 
 <script>
-    export default {
-        mounted() {
-        },
-	methods: {
-	hello() {
-		alert("приветики");
-	}
-	}
-	
+const items = [
+  { isActive: true, age: 40, first_name: 'Dickerson', last_name: 'Слесарюга' },
+  { isActive: true, age: 21, first_name: 'Larsen', last_name: 'Shaw' },
+  { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' },
+  { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }
+]
+
+export default {
+  data () {
+    return {
+      items: items
     }
+  }
+}
 </script>
