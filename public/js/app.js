@@ -1804,7 +1804,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
 
 
 
@@ -47322,6 +47321,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "b-container",
+    { staticClass: "color-grey" },
     [
       _c(
         "div",
@@ -47372,15 +47372,9 @@ var render = function() {
         [
           _c(
             "b-col",
-            { staticClass: "greyText", attrs: { cols: "12" } },
+            { attrs: { cols: "12" } },
             [
-              _c(
-                "h1",
-                {
-                  staticStyle: { "font-weight": "bold", "margin-top": "30px" }
-                },
-                [_vm._v("WorkTracker")]
-              ),
+              _c("h1", { staticClass: "title-text" }, [_vm._v("WorkTracker")]),
               _vm._v(" "),
               _c(
                 "div",
@@ -47431,12 +47425,11 @@ var render = function() {
         [
           _c(
             "b-col",
-            { staticClass: "greyText" },
             [
               _c(
                 "b-form",
                 {
-                  staticStyle: { margin: "auto", width: "500px" },
+                  staticStyle: { margin: "auto", width: "530px" },
                   attrs: { inline: "" }
                 },
                 [
@@ -47446,7 +47439,7 @@ var render = function() {
                     [
                       _c("b-form-input", {
                         staticClass: "mb-0 mr-sm-0 mb-sm-0",
-                        staticStyle: { width: "400px" },
+                        staticStyle: { width: "450px" },
                         attrs: {
                           type: "text",
                           placeholder:

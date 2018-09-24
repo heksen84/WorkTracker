@@ -1,4 +1,10 @@
-.greyText {
+.color-grey {
   color: #646464;
+}
+
+.title-text {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 40px;
 }
 
