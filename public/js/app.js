@@ -47370,11 +47370,13 @@ var render = function() {
             "b-col",
             { staticClass: "greyText", attrs: { cols: "12" } },
             [
-              _c("br"),
-              _vm._v(" "),
-              _c("h1", { staticStyle: { "font-weight": "bold" } }, [
-                _vm._v("WorkTracker")
-              ]),
+              _c(
+                "h1",
+                {
+                  staticStyle: { "font-weight": "bold", "margin-top": "30px" }
+                },
+                [_vm._v("WorkTracker")]
+              ),
               _vm._v(" "),
               _c(
                 "div",
@@ -47421,7 +47423,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticStyle: { "margin-top": "50px" } },
+        { staticStyle: { "margin-top": "5%" } },
         [
           _c(
             "b-col",
@@ -47430,7 +47432,7 @@ var render = function() {
               _c(
                 "b-form",
                 {
-                  staticStyle: { margin: "auto", width: "480px" },
+                  staticStyle: { margin: "auto", width: "500px" },
                   attrs: { inline: "" }
                 },
                 [
