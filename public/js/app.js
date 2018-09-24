@@ -1678,7 +1678,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 
-var items = [{ isActive: true, age: 40, first_name: 'Dickerson', last_name: 'Слесарюга' }, { isActive: true, age: 21, first_name: 'Larsen', last_name: 'Shaw' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }];
+var items = [{ isActive: true, age: 21, first_name: 'Илья', last_name: '---------------' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 89, first_name: 'Geneva', last_name: 'Wilson' }, { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }];
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
