@@ -47377,7 +47377,7 @@ var render = function() {
                 "div",
                 {
                   staticStyle: {
-                    "font-size": "150%",
+                    "font-size": "140%",
                     "margin-top": "-10px",
                     "margin-bottom": "17px"
                   }

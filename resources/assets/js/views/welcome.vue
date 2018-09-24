@@ -17,7 +17,7 @@
     <b-row class="text-center">
         <b-col class="greyText" cols="12">
 			<h1 style="font-weight:bold">WorkTracker</h1>
-			<div style="font-size:150%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
+			<div style="font-size:140%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
 
 		<a href="find-work"><b-button class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
 		<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Предложить работу</b-button>
