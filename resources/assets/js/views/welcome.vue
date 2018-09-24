@@ -1,0 +1,46 @@
+<template>
+<b-container>
+    <b-row class="text-center">
+        <b-col class="greyText">
+		<br>
+		<br>
+			<h1>WorkTracker</h1>
+			<h4>это место где работодатель и работник находят друг друга</h4>
+			<br>
+			<a href="find-work"><b-button>Найти работу</b-button></a>
+			<b-button href="offer-a-job" variant="success" @click="test">Предложить работу</b-button>
+		<br>
+		<br>
+	</b-col>
+    </b-row>
+</b-container>
+</template>
+
+<script>
+    
+    import axios from 'axios';    
+
+    export default {
+        mounted() {
+        },
+	methods: {
+	test() {
+
+		var data={}
+
+		data.item1 = "vinni@puh.kz";
+		data.item2 = "hello 2";
+
+		axios.post("/create",  { 
+		data: data
+		}).then(function(response) 
+		{
+		   alert(response.data.msg)
+		}).catch(function(error) {
+		  console.log(error);
+		});
+	}
+	}
+	
+    }
+</script>
