@@ -47374,14 +47374,14 @@ var render = function() {
             "b-col",
             { attrs: { cols: "12" } },
             [
-              _c("h1", { staticClass: "title-text" }, [_vm._v("WorkTracker")]),
+              _c("h1", { staticClass: "title-text" }, [_vm._v("Работун")]),
               _vm._v(" "),
               _c(
                 "div",
                 {
                   staticStyle: {
                     "font-size": "130%",
-                    "margin-top": "-10px",
+                    "margin-top": "-8px",
                     "margin-bottom": "17px"
                   }
                 },
