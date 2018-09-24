@@ -1690,6 +1690,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 
 
@@ -47173,13 +47176,11 @@ var render = function() {
               _vm._v(" "),
               _c("h1", [_vm._v("WorkTracker")]),
               _vm._v(" "),
-              _c("h4", [
+              _c("h5", [
                 _vm._v(
                   "это место где работодатель и работник находят друг друга"
                 )
               ]),
-              _vm._v(" "),
-              _c("br"),
               _vm._v(" "),
               _c(
                 "a",
@@ -47195,11 +47196,36 @@ var render = function() {
                   on: { click: _vm.test }
                 },
                 [_vm._v("Предложить работу")]
-              ),
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-row",
+        { staticClass: "text-center", staticStyle: { "margin-top": "80px" } },
+        [
+          _c(
+            "b-col",
+            { staticClass: "greyText" },
+            [
+              _c("b-form-input", {
+                staticStyle: { width: "600px", margin: "auto" },
+                attrs: { type: "text", placeholder: "Поиск работы на сайте" }
+              }),
               _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("br")
+              _c(
+                "b-button",
+                {
+                  staticStyle: { "margin-top": "5px" },
+                  attrs: { href: "offer-a-job", variant: "success" },
+                  on: { click: _vm.test }
+                },
+                [_vm._v("Поиск")]
+              )
             ],
             1
           )
