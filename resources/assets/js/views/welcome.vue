@@ -15,6 +15,7 @@
 
     <b-row class="text-center">
         <b-col class="greyText" cols="12">
+			<br>			
 			<h1 style="font-weight:bold">WorkTracker</h1>
 			<div style="font-size:150%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
 
@@ -23,18 +24,17 @@
         </b-col>
 
     </b-row>
-    <b-row style="margin-top:40px">
+<b-row style="margin-top:50px">
 <b-col class="greyText">	
-<b-form inline style="margin:auto;width:500px">
+<b-form inline style="margin:auto;width:480px">
 <b-form-group label="Поиск работы по должности:">
-
-		<b-form-input type="text" placeholder="Введите название должности, например: электрик" class="mb-0 mr-sm-0 mb-sm-0" style="width:420px" v-model="search"></b-form-input>
-		<b-button variant="primary" @click="searchData" style="margin-left:5px">Найти</b-button>
+		<b-form-input type="text" placeholder="Введите название должности, например: электрик" class="mb-0 mr-sm-0 mb-sm-0" style="width:400px" v-model="search"></b-form-input>
+		<b-button variant="primary" style="margin-left:5px" @click="searchData">Найти</b-button>
 </b-form-group>
 </b-form>
 </b-col>
 
-    </b-row>
+</b-row>
 </b-container>
 </template>
 
@@ -53,7 +53,7 @@
         },
 	methods: {
 	searchData() {
-		alert(this.search)
+	      window.location='/searchWork?='+this.search;
 	},
 	test() {
 

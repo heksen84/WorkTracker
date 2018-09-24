@@ -32,4 +32,8 @@ Route::get('/offer-a-job', function () {
     return view('offer-a-job');
 });
 
+Route::get('searchWork', function () {
+    return view('list-works');
+});
+
 
