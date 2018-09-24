@@ -47303,7 +47303,8 @@ var render = function() {
                     "margin-top": "-12px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
-                    color: "rgb(100,100,250)"
+                    color: "rgb(100,100,250)",
+                    "font-weight": "500"
                   }
                 },
                 [_vm._v("Сайт на котором есть работа")]
