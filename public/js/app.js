@@ -1695,6 +1695,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -47165,6 +47182,45 @@ var render = function() {
     "b-container",
     [
       _c(
+        "div",
+        [
+          _c(
+            "b-navbar",
+            { attrs: { toggleable: "" } },
+            [
+              _c("b-navbar-toggle", {
+                attrs: { target: "nav_dropdown_collapse" }
+              }),
+              _vm._v(" "),
+              _c(
+                "b-collapse",
+                { attrs: { "is-nav": "", id: "nav_dropdown_collapse" } },
+                [
+                  _c(
+                    "b-navbar-nav",
+                    { staticClass: "ml-auto" },
+                    [
+                      _c("b-nav-item", { attrs: { href: "login" } }, [
+                        _vm._v("Авторизация")
+                      ]),
+                      _vm._v(" "),
+                      _c("b-nav-item", { attrs: { href: "register" } }, [
+                        _vm._v("Регистрация")
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
         "b-row",
         { staticClass: "text-center" },
         [
@@ -47172,21 +47228,15 @@ var render = function() {
             "b-col",
             { staticClass: "greyText" },
             [
-              _c("a", { attrs: { href: "login" } }, [_vm._v("Авторизация")]),
-              _vm._v(" "),
-              _c("a", { attrs: { href: "register" } }, [_vm._v("Регистрация")]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
               _c("h1", [_vm._v("WorkTracker")]),
               _vm._v(" "),
-              _c("h5", [
+              _c("h4", [
                 _vm._v(
-                  "это место где работодатель и работник находят друг друга"
+                  "это сайт где можно найти или разместить предложение о работе"
                 )
               ]),
+              _vm._v(" "),
+              _c("br"),
               _vm._v(" "),
               _c(
                 "a",
@@ -47212,25 +47262,47 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "40px" } },
+        { staticStyle: { "margin-top": "40px" } },
         [
           _c(
             "b-col",
             { staticClass: "greyText" },
             [
-              _c("b-form-input", {
-                staticStyle: { width: "600px", margin: "auto" },
-                attrs: { type: "text", placeholder: "Поиск работы на сайте" }
-              }),
-              _vm._v(" "),
               _c(
-                "b-button",
+                "b-form",
                 {
-                  staticStyle: { "margin-top": "5px" },
-                  attrs: { href: "offer-a-job", variant: "success" },
-                  on: { click: _vm.test }
+                  staticStyle: { margin: "auto", width: "550" },
+                  attrs: { inline: "" }
                 },
-                [_vm._v("Поиск")]
+                [
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Поиск работы по должности:" } },
+                    [
+                      _c("b-form-input", {
+                        staticClass: "mb-0 mr-sm-0 mb-sm-0",
+                        staticStyle: { width: "440px" },
+                        attrs: {
+                          type: "text",
+                          placeholder:
+                            "Введите название должности, например: слесарь"
+                        }
+                      }),
+                      _vm._v(" "),
+                      _c(
+                        "b-button",
+                        {
+                          staticStyle: { "margin-left": "5px" },
+                          attrs: { href: "offer-a-job", variant: "primary" },
+                          on: { click: _vm.test }
+                        },
+                        [_vm._v("Найти")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
               )
             ],
             1
