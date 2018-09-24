@@ -47304,7 +47304,7 @@ var render = function() {
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
                     color: "rgb(100,100,250)",
-                    "font-weight": "500"
+                    "font-weight": "400"
                   }
                 },
                 [_vm._v("Сайт на котором есть работа")]
