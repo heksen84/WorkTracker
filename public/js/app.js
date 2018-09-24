@@ -1693,6 +1693,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 
@@ -47170,6 +47172,10 @@ var render = function() {
             "b-col",
             { staticClass: "greyText" },
             [
+              _c("a", { attrs: { href: "login" } }, [_vm._v("Авторизация")]),
+              _vm._v(" "),
+              _c("a", { attrs: { href: "register" } }, [_vm._v("Регистрация")]),
+              _vm._v(" "),
               _c("br"),
               _vm._v(" "),
               _c("br"),
@@ -47206,7 +47212,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "80px" } },
+        { staticClass: "text-center", staticStyle: { "margin-top": "40px" } },
         [
           _c(
             "b-col",

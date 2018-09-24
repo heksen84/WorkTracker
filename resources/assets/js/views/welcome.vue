@@ -2,6 +2,8 @@
 <b-container>
     <b-row class="text-center">
         <b-col class="greyText">
+	<a href="login">Авторизация</a>
+	<a href="register">Регистрация</a>
 		<br>
 		<br>
 			<h1>WorkTracker</h1>
@@ -10,7 +12,7 @@
 			<b-button href="offer-a-job" variant="success" @click="test">Предложить работу</b-button>
 	</b-col>	
     </b-row>
-    <b-row class="text-center" style="margin-top:80px">
+    <b-row class="text-center" style="margin-top:40px">
 	<b-col class="greyText">	
 		<b-form-input type="text" placeholder="Поиск работы на сайте" style="width:600px;margin:auto"></b-form-input>
 		<b-button href="offer-a-job" variant="success" @click="test" style="margin-top:5px">Поиск</b-button>
