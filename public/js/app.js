@@ -47429,7 +47429,7 @@ var render = function() {
               _c(
                 "b-form",
                 {
-                  staticStyle: { margin: "auto", width: "530px" },
+                  staticStyle: { margin: "auto", width: "500px" },
                   attrs: { inline: "" }
                 },
                 [
@@ -47439,7 +47439,7 @@ var render = function() {
                     [
                       _c("b-form-input", {
                         staticClass: "mb-0 mr-sm-0 mb-sm-0",
-                        staticStyle: { width: "450px" },
+                        staticStyle: { width: "420px" },
                         attrs: {
                           type: "text",
                           placeholder:
