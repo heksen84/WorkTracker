@@ -16,9 +16,8 @@
 
     <b-row class="text-center">
         <b-col cols="12">
-			<h1 class="title-text">ОтБаке</h1>
-			<div style="font-size:130%;margin-top:-8px;margin-bottom:17px">сайт на котором можно найти или разместить предложение о работе</div>
-
+		<h1 class="title-text">ОтБаке</h1>
+		<div style="font-size:124%;margin-top:-8px;margin-bottom:17px">Сайт на котором можно найти или разместить предложение о работе</div>
 		<a href="find-work"><b-button class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
 		<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Разместить вакансию</b-button>
         </b-col>
@@ -39,20 +38,18 @@
 </template>
 
 <script>
-    
-    import axios from 'axios';    
+import axios from 'axios';    
 
-    export default {
-    data () {
+export default {
+data () {
     return {
-	search:""
+		search:""
 	}
     },
-
-        mounted() {
-        },
+	mounted() {},
 	methods: {
-	searchData() {
+	searchData() 
+	{
 	      window.location='/searchWork?='+this.search;
 	},
 	test() {
@@ -72,6 +69,5 @@
 		});
 	}
 	}
-	
-    }
+}
 </script>

@@ -1785,40 +1785,37 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-	data: function data() {
-		return {
-			search: ""
-		};
-	},
-	mounted: function mounted() {},
-
-	methods: {
-		searchData: function searchData() {
-			window.location = '/searchWork?=' + this.search;
+		data: function data() {
+				return {
+						search: ""
+				};
 		},
-		test: function test() {
+		mounted: function mounted() {},
 
-			var data = {};
+		methods: {
+				searchData: function searchData() {
+						window.location = '/searchWork?=' + this.search;
+				},
+				test: function test() {
 
-			data.item1 = "vinni@puh.kz";
-			data.item2 = "hello 2";
+						var data = {};
 
-			__WEBPACK_IMPORTED_MODULE_0_axios___default.a.post("/create", {
-				data: data
-			}).then(function (response) {
-				alert(response.data.msg);
-			}).catch(function (error) {
-				console.log(error);
-			});
+						data.item1 = "vinni@puh.kz";
+						data.item2 = "hello 2";
+
+						__WEBPACK_IMPORTED_MODULE_0_axios___default.a.post("/create", {
+								data: data
+						}).then(function (response) {
+								alert(response.data.msg);
+						}).catch(function (error) {
+								console.log(error);
+						});
+				}
 		}
-	}
-
 });
 
 /***/ }),
@@ -47303,14 +47300,14 @@ var render = function() {
                 "div",
                 {
                   staticStyle: {
-                    "font-size": "130%",
+                    "font-size": "124%",
                     "margin-top": "-8px",
                     "margin-bottom": "17px"
                   }
                 },
                 [
                   _vm._v(
-                    "сайт на котором можно найти или разместить предложение о работе"
+                    "Сайт на котором можно найти или разместить предложение о работе"
                   )
                 ]
               ),
