@@ -13,7 +13,7 @@
 </head>
 <body>
 <div id="app">
-  <register></register>
+  <login></login>
 </div>
 </body>
 </html>

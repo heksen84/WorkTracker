@@ -4,7 +4,7 @@
         <b-col class="greyText">
 		<br>
 		<br>
-		<h1>TeamBloger</h1>
+		<h1>Авторизация</h1>
 		<h3>Personal blog for teams, groups or commands</h3>
 		<br>
 		<a href="register"><b-button variant="success">join</b-button></a>

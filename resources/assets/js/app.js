@@ -4,16 +4,8 @@ import Vue from 'vue';
 
 // views
 import welcome  from './views/welcome.vue';
+import login from './views/login.vue';
 import register from './views/register.vue';
-/*import home from './views/home.vue';
-import profile from './views/profile.vue';
-import search from './views/search.vue';
-import results from './views/results.vue';
-import create from './views/create.vue';
-import fullinfo from './views/fullinfo.vue';
-import passwordreset from './views/auth/passwordreset.vue';
-import login from './views/auth/login.vue';
-import register from './views/auth/register.vue';*/
 
 // bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -59,15 +51,7 @@ const app = new Vue({
     data: store,
     components: {
       welcome,
-      register
-   /*   profile,
-      home,
-      passwordreset,
       login,
-      register,
-      search,
-      results,
-      create,
-      fullinfo*/
+      register
   }
 });

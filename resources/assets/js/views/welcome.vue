@@ -8,28 +8,28 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="login">Авторизация</b-nav-item>
         <b-nav-item href="register">Регистрация</b-nav-item>
-        <!-- Navbar dropdowns -->
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
 </div>
 
     <b-row class="text-center">
-        <b-col class="greyText">
-			<h1>WorkTracker</h1>
-			<h4>это сайт где можно найти или разместить предложение о работе</h4>
-		<br>
-			<a href="find-work"><b-button>Найти работу</b-button></a>
-			<b-button href="offer-a-job" variant="success" @click="test">Предложить работу</b-button>
-	</b-col>	
+        <b-col class="greyText" cols="12">
+			<h1 style="font-weight:bold">WorkTracker</h1>
+			<div style="font-size:150%;margin-top:-10px;margin-bottom:17px">это сайт где можно найти или разместить предложение о работе</div>
+
+		<a href="find-work"><b-button  class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
+		<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Предложить работу</b-button>
+        </b-col>
+
     </b-row>
     <b-row style="margin-top:40px">
 <b-col class="greyText">	
-<b-form inline style="margin:auto;width:550">
+<b-form inline style="margin:auto;width:500px">
 <b-form-group label="Поиск работы по должности:">
 
-		<b-form-input type="text" placeholder="Введите название должности, например: слесарь" class="mb-0 mr-sm-0 mb-sm-0" style="width:440px"></b-form-input>
-		<b-button href="offer-a-job" variant="primary" @click="test" style="margin-left:5px">Найти</b-button>
+		<b-form-input type="text" placeholder="Введите название должности, например: электрик" class="mb-0 mr-sm-0 mb-sm-0" style="width:420px" v-model="search"></b-form-input>
+		<b-button variant="primary" @click="searchData" style="margin-left:5px">Найти</b-button>
 </b-form-group>
 </b-form>
 </b-col>
@@ -43,9 +43,18 @@
     import axios from 'axios';    
 
     export default {
+    data () {
+    return {
+	search:""
+	}
+    },
+
         mounted() {
         },
 	methods: {
+	searchData() {
+		alert(this.search)
+	},
 	test() {
 
 		var data={}

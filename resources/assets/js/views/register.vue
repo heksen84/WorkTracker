@@ -3,7 +3,7 @@
     <b-row class="text-center">
         <b-col class="greyText">
 		<br>
-		<h1>Register</h1>
+		<h1>Регистрация</h1>
 		<br>
 		<b-form-input type="text" placeholder="Enter your name"></b-form-input>
 	</b-col>
