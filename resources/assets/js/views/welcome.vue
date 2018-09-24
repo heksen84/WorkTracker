@@ -17,12 +17,12 @@
     <b-row class="text-center">
         <b-col cols="12">
 		<h1 class="title-text">ОтБаке</h1>
-		<div style="font-size:124%;margin-top:-8px;margin-bottom:17px">Сайт на котором можно найти или разместить предложение о работе</div>
+		<div style="font-size:124%;margin-top:-10px;margin-bottom:17px">Сайт на котором можно найти или разместить предложение о работе</div>
 		<a href="find-work"><b-button class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
 		<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Разместить вакансию</b-button>
         </b-col>
     </b-row>
-<b-row style="margin-top:5%">
+<b-row style="margin-top:3%">
 <b-col>	
 <b-form inline style="margin:auto;width:500px">
 <b-form-group label="Поиск работы по специальности:">

@@ -47301,7 +47301,7 @@ var render = function() {
                 {
                   staticStyle: {
                     "font-size": "124%",
-                    "margin-top": "-8px",
+                    "margin-top": "-10px",
                     "margin-bottom": "17px"
                   }
                 },
@@ -47341,7 +47341,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticStyle: { "margin-top": "5%" } },
+        { staticStyle: { "margin-top": "3%" } },
         [
           _c(
             "b-col",
