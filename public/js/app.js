@@ -47287,7 +47287,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center" },
+        { staticClass: "text-center", staticStyle: { "margin-top": "5px" } },
         [
           _c(
             "b-col",
@@ -47338,7 +47338,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticStyle: { "margin-top": "3%" } },
+        { staticStyle: { "margin-top": "5%" } },
         [
           _c(
             "b-col",

@@ -14,7 +14,7 @@
   </b-navbar>
 </div>
 
-    <b-row class="text-center">
+    <b-row class="text-center" style="margin-top:5px">
     	<b-col cols="12">
 				<h1 class="title-text">ОтБаке</h1>
 				<div style="font-size:124%;margin-top:-12px;margin-bottom:17px;letter-spacing:5px;color:rgb(100,100,250)">Сайт на котором есть работа</div>
@@ -23,7 +23,7 @@
     	</b-col>
     </b-row>
 
-<b-row style="margin-top:3%">
+<b-row style="margin-top:5%">
 <b-col>	
 <b-form inline style="margin:auto;width:500px">
 <b-form-group label="Поиск работы по специальности:">
