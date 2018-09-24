@@ -47300,15 +47300,12 @@ var render = function() {
                 {
                   staticStyle: {
                     "font-size": "124%",
-                    "margin-top": "-10px",
-                    "margin-bottom": "17px"
+                    "margin-top": "-15px",
+                    "margin-bottom": "17px",
+                    "letter-spacing": "5px"
                   }
                 },
-                [
-                  _vm._v(
-                    "Сайт на котором можно найти или разместить предложение о работе"
-                  )
-                ]
+                [_vm._v("Сайт на котором есть работа")]
               ),
               _vm._v(" "),
               _c(
