@@ -47407,7 +47407,7 @@ var render = function() {
                   attrs: { href: "offer-a-job", variant: "success" },
                   on: { click: _vm.test }
                 },
-                [_vm._v("Предложить работу")]
+                [_vm._v("Разместить вакансию")]
               )
             ],
             1
