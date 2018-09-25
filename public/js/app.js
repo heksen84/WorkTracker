@@ -47574,8 +47574,8 @@ var render = function() {
                   }
                 },
                 [
-                  _c("h2", { staticStyle: { "text-align": "center" } }, [
-                    _vm._v("Вход в От Баке")
+                  _c("h1", { staticStyle: { "text-align": "center" } }, [
+                    _vm._v("Вход")
                   ]),
                   _vm._v(" "),
                   _c(
