@@ -3,15 +3,15 @@
     <b-row>
       <b-col class="color-grey">
       <b-form style="width:330px;margin:auto;margin-top:90px">
-      <h1 class="title-text" style="text-align:center">вход</h1>
+      <h2 style="text-align:center">Вход в От Баке</h2>
 
-      <b-form-group label="Логин:">
+      <b-form-group label="<b>Логин:</b>">
         <b-form-input type="text" required placeholder="Введите логин">
         </b-form-input>
       </b-form-group>
 
 
-      <b-form-group label="Пароль:">
+      <b-form-group label="<b>Пароль:</b>">
         <b-form-input type="password" required placeholder="Введите пароль">
         </b-form-input>
       </b-form-group>

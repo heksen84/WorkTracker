@@ -47394,12 +47394,12 @@ var render = function() {
                 "div",
                 {
                   staticStyle: {
-                    "font-size": "125%",
-                    "margin-top": "-12px",
+                    "font-size": "150%",
+                    "margin-top": "-14px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
                     color: "rgb(90,90,90)",
-                    "font-weight": "400"
+                    "font-weight": "550"
                   }
                 },
                 [_vm._v("Сайт на котором есть работа")]
@@ -47574,18 +47574,13 @@ var render = function() {
                   }
                 },
                 [
-                  _c(
-                    "h1",
-                    {
-                      staticClass: "title-text",
-                      staticStyle: { "text-align": "center" }
-                    },
-                    [_vm._v("вход")]
-                  ),
+                  _c("h2", { staticStyle: { "text-align": "center" } }, [
+                    _vm._v("Вход в От Баке")
+                  ]),
                   _vm._v(" "),
                   _c(
                     "b-form-group",
-                    { attrs: { label: "Логин:" } },
+                    { attrs: { label: "<b>Логин:</b>" } },
                     [
                       _c("b-form-input", {
                         attrs: {
@@ -47600,7 +47595,7 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "b-form-group",
-                    { attrs: { label: "Пароль:" } },
+                    { attrs: { label: "<b>Пароль:</b>" } },
                     [
                       _c("b-form-input", {
                         attrs: {
