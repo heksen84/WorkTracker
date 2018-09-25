@@ -47395,7 +47395,7 @@ var render = function() {
                 {
                   staticStyle: {
                     "font-size": "154%",
-                    "margin-top": "-14px",
+                    "margin-top": "-5px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
                     color: "rgb(90,90,90)",
