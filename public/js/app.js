@@ -47619,7 +47619,8 @@ var render = function() {
                       {
                         staticStyle: {
                           "letter-spacing": "8",
-                          "font-weight": "550"
+                          "font-weight": "550",
+                          color: "black"
                         },
                         attrs: { href: "register" }
                       },
