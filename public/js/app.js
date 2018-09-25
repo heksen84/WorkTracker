@@ -1711,16 +1711,34 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-				mounted: function mounted() {},
+        mounted: function mounted() {},
 
-				methods: {
-								hello: function hello() {
-												alert("приветики");
-								}
-				}
-
+        methods: {
+                hello: function hello() {}
+        }
 });
 
 /***/ }),
@@ -47376,11 +47394,11 @@ var render = function() {
                 "div",
                 {
                   staticStyle: {
-                    "font-size": "124%",
+                    "font-size": "125%",
                     "margin-top": "-10px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
-                    color: "rgb(80,80,230)",
+                    color: "rgb(100,100,100)",
                     "font-weight": "400"
                   }
                 },
@@ -47545,32 +47563,70 @@ var render = function() {
         [
           _c(
             "b-col",
-            { staticClass: "greyText" },
+            { staticClass: "color-grey" },
             [
-              _c("br"),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("h1", [_vm._v("Авторизация")]),
-              _vm._v(" "),
-              _c("h3", [_vm._v("Personal blog for teams, groups or commands")]),
-              _vm._v(" "),
-              _c("br"),
+              _c("h1", { staticClass: "title-text" }, [_vm._v("вход")]),
               _vm._v(" "),
               _c(
-                "a",
-                { attrs: { href: "register" } },
+                "b-form",
+                {
+                  staticStyle: {
+                    width: "400px",
+                    margin: "auto",
+                    "margin-top": "20px"
+                  }
+                },
                 [
-                  _c("b-button", { attrs: { variant: "success" } }, [
-                    _vm._v("join")
-                  ])
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: {
+                        id: "exampleInputGroup1",
+                        label: "Email address:",
+                        "label-for": "exampleInput1",
+                        description:
+                          "We'll never share your email with anyone else."
+                      }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "exampleInput1",
+                          type: "email",
+                          required: "",
+                          placeholder: "Enter email"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    {
+                      attrs: {
+                        id: "exampleInputGroup1",
+                        label: "Email address:",
+                        "label-for": "exampleInput1",
+                        description:
+                          "We'll never share your email with anyone else."
+                      }
+                    },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          id: "exampleInput1",
+                          type: "email",
+                          required: "",
+                          placeholder: "Enter email"
+                        }
+                      })
+                    ],
+                    1
+                  )
                 ],
                 1
-              ),
-              _vm._v(" "),
-              _c("b-button", { attrs: { variant: "success" } }, [
-                _vm._v("TestPost")
-              ])
+              )
             ],
             1
           )
