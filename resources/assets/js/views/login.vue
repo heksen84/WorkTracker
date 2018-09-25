@@ -18,7 +18,7 @@
 	
 
       <b-form-group class="text-center">
-       <a href="register" style="letter-spacing:8;font-weight:550;color:rgb(90,90,90)">РЕГИСТРАЦИЯ</a>
+       <a href="register" style="letter-spacing:8;font-weight:550;color:rgb(50,50,50)">РЕГИСТРАЦИЯ</a>
       </b-form-group>
 
       <b-form-group class="text-center">
