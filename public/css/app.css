@@ -1,10 +1,14 @@
+h1 {
+  color: #5a5a5a;
+}
+
 .color-grey {
   color: #5a5a5a;
 }
 
 #title-text {
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 62px;
   letter-spacing: 8px;
   font-weight: 630;
 }
