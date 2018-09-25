@@ -1,36 +1,36 @@
 <template>
 <b-container>
-    <b-row class="text-center">
-        <b-col class="color-grey">
-	<h1 class="title-text">вход</h1>
-<b-form style="width:400px;margin:auto;margin-top:20px">
-      <b-form-group id="exampleInputGroup1"
-                    label="Email address:"
-                    label-for="exampleInput1"
-                    description="We'll never share your email with anyone else.">
-        <b-form-input id="exampleInput1"
-                      type="email"
-                      required
-                      placeholder="Enter email">
+    <b-row>
+      <b-col class="color-grey">
+      <b-form style="width:330px;margin:auto;margin-top:70px">
+      <h1 class="title-text" style="text-align:center">вход</h1>
+
+      <b-form-group label="Логин:">
+        <b-form-input type="text" required placeholder="Введите логин">
         </b-form-input>
       </b-form-group>
 
 
-      <b-form-group id="exampleInputGroup1"
-                    label="Email address:"
-                    label-for="exampleInput1"
-                    description="We'll never share your email with anyone else.">
-        <b-form-input id="exampleInput1"
-                      type="email"
-                      required
-                      placeholder="Enter email">
+      <b-form-group label="Пароль:">
+        <b-form-input type="password" required placeholder="Введите пароль">
         </b-form-input>
       </b-form-group>
+	
 
+      <b-form-group class="text-center">
+       <a href="URL" style="letter-spacing:8;font-weight:550">РЕГИСТРАЦИЯ</a>
+      </b-form-group>
 
-</b-form>
+      <b-form-group class="text-center">
+       <a href="URL">Забыли пароль?</a>
+      </b-form-group>
 
-	</b-col>
+      <b-form-group class="text-center">
+	<b-button variant="success">Войти</b-button>
+      </b-form-group>
+      </b-form>
+
+      </b-col>
     </b-row>
 </b-container>
 </template>

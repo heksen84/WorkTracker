@@ -47398,7 +47398,7 @@ var render = function() {
                     "margin-top": "-12px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
-                    color: "rgb(100,100,100)",
+                    color: "rgb(90,90,90)",
                     "font-weight": "400"
                   }
                 },
@@ -47434,7 +47434,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticStyle: { "margin-top": "4%" } },
+        { staticStyle: { "margin-top": "5%" } },
         [
           _c(
             "b-col",
@@ -47559,42 +47559,39 @@ var render = function() {
     [
       _c(
         "b-row",
-        { staticClass: "text-center" },
         [
           _c(
             "b-col",
             { staticClass: "color-grey" },
             [
-              _c("h1", { staticClass: "title-text" }, [_vm._v("вход")]),
-              _vm._v(" "),
               _c(
                 "b-form",
                 {
                   staticStyle: {
-                    width: "400px",
+                    width: "330px",
                     margin: "auto",
-                    "margin-top": "20px"
+                    "margin-top": "70px"
                   }
                 },
                 [
                   _c(
-                    "b-form-group",
+                    "h1",
                     {
-                      attrs: {
-                        id: "exampleInputGroup1",
-                        label: "Email address:",
-                        "label-for": "exampleInput1",
-                        description:
-                          "We'll never share your email with anyone else."
-                      }
+                      staticClass: "title-text",
+                      staticStyle: { "text-align": "center" }
                     },
+                    [_vm._v("вход")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "Логин:" } },
                     [
                       _c("b-form-input", {
                         attrs: {
-                          id: "exampleInput1",
-                          type: "email",
+                          type: "text",
                           required: "",
-                          placeholder: "Enter email"
+                          placeholder: "Введите логин"
                         }
                       })
                     ],
@@ -47603,24 +47600,46 @@ var render = function() {
                   _vm._v(" "),
                   _c(
                     "b-form-group",
-                    {
-                      attrs: {
-                        id: "exampleInputGroup1",
-                        label: "Email address:",
-                        "label-for": "exampleInput1",
-                        description:
-                          "We'll never share your email with anyone else."
-                      }
-                    },
+                    { attrs: { label: "Пароль:" } },
                     [
                       _c("b-form-input", {
                         attrs: {
-                          id: "exampleInput1",
-                          type: "email",
+                          type: "password",
                           required: "",
-                          placeholder: "Enter email"
+                          placeholder: "Введите пароль"
                         }
                       })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("b-form-group", { staticClass: "text-center" }, [
+                    _c(
+                      "a",
+                      {
+                        staticStyle: {
+                          "letter-spacing": "8",
+                          "font-weight": "550"
+                        },
+                        attrs: { href: "URL" }
+                      },
+                      [_vm._v("РЕГИСТРАЦИЯ")]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("b-form-group", { staticClass: "text-center" }, [
+                    _c("a", { attrs: { href: "URL" } }, [
+                      _vm._v("Забыли пароль?")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    { staticClass: "text-center" },
+                    [
+                      _c("b-button", { attrs: { variant: "success" } }, [
+                        _vm._v("Войти")
+                      ])
                     ],
                     1
                   )
