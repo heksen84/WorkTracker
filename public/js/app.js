@@ -47620,7 +47620,7 @@ var render = function() {
                         staticStyle: {
                           "letter-spacing": "8",
                           "font-weight": "550",
-                          color: "black"
+                          color: "rgb(90,90,90)"
                         },
                         attrs: { href: "register" }
                       },
