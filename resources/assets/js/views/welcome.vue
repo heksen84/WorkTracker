@@ -6,7 +6,7 @@
     <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_dropdown_collapse">
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="login">Авторизация</b-nav-item>
+        <b-nav-item href="login">Войти</b-nav-item>
         <b-nav-item href="register">Регистрация</b-nav-item>
         <b-nav-item href="fresh-vacansies">Свежие вакансии</b-nav-item>
       </b-navbar-nav>

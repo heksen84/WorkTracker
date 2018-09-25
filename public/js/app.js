@@ -47357,7 +47357,7 @@ var render = function() {
                     { staticClass: "ml-auto" },
                     [
                       _c("b-nav-item", { attrs: { href: "login" } }, [
-                        _vm._v("Авторизация")
+                        _vm._v("Войти")
                       ]),
                       _vm._v(" "),
                       _c("b-nav-item", { attrs: { href: "register" } }, [
