@@ -14,7 +14,7 @@
   </b-navbar>
 </div>
 
-    <b-row class="text-center" style="margin-top:23px">
+    <b-row class="text-center" style="margin-top:25px">
     	<b-col cols="12">
 				<h1 class="title-text">ОтБаке</h1>
 				<div style="font-size:125%;margin-top:-12px;margin-bottom:17px;letter-spacing:5px;color:rgb(90,90,90);font-weight:400">Сайт на котором есть работа</div>
