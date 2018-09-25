@@ -47399,7 +47399,7 @@ var render = function() {
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
                     color: "rgb(90,90,90)",
-                    "font-weight": "550"
+                    "font-weight": "560"
                   }
                 },
                 [_vm._v("Сайт на котором есть работа")]

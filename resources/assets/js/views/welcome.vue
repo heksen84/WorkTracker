@@ -17,7 +17,7 @@
 <b-row class="text-center" style="margin-top:30px">
  <b-col cols="12">
 	<h1 id="title-text">ОтБаке</h1>
-	<div style="font-size:154%;margin-top:-14px;margin-bottom:17px;letter-spacing:5px;color:rgb(90,90,90);font-weight:550">Сайт на котором есть работа</div>
+	<div style="font-size:154%;margin-top:-14px;margin-bottom:17px;letter-spacing:5px;color:rgb(90,90,90);font-weight:560">Сайт на котором есть работа</div>
 	<a href="find-work"><b-button class="mb-1 mr-sm-0 mb-sm-0">Найти работу</b-button></a>
 	<b-button href="offer-a-job" variant="success" @click="test" class="mb-0 mr-sm-0 mb-sm-0">Разместить вакансию</b-button>
  </b-col>
