@@ -47382,7 +47382,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "18px" } },
+        { staticClass: "text-center", staticStyle: { "margin-top": "20px" } },
         [
           _c(
             "b-col",
@@ -47621,14 +47621,14 @@ var render = function() {
                           "letter-spacing": "8",
                           "font-weight": "550"
                         },
-                        attrs: { href: "URL" }
+                        attrs: { href: "register" }
                       },
                       [_vm._v("РЕГИСТРАЦИЯ")]
                     )
                   ]),
                   _vm._v(" "),
                   _c("b-form-group", { staticClass: "text-center" }, [
-                    _c("a", { attrs: { href: "URL" } }, [
+                    _c("a", { attrs: { href: "restore" } }, [
                       _vm._v("Забыли пароль?")
                     ])
                   ]),

@@ -18,11 +18,11 @@
 	
 
       <b-form-group class="text-center">
-       <a href="URL" style="letter-spacing:8;font-weight:550">РЕГИСТРАЦИЯ</a>
+       <a href="register" style="letter-spacing:8;font-weight:550">РЕГИСТРАЦИЯ</a>
       </b-form-group>
 
       <b-form-group class="text-center">
-       <a href="URL">Забыли пароль?</a>
+       <a href="restore">Забыли пароль?</a>
       </b-form-group>
 
       <b-form-group class="text-center">
