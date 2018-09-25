@@ -47364,7 +47364,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "5px" } },
+        { staticClass: "text-center", staticStyle: { "margin-top": "10px" } },
         [
           _c(
             "b-col",
@@ -47377,10 +47377,10 @@ var render = function() {
                 {
                   staticStyle: {
                     "font-size": "124%",
-                    "margin-top": "-12px",
+                    "margin-top": "-10px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
-                    color: "rgb(100,100,250)",
+                    color: "rgb(80,80,230)",
                     "font-weight": "400"
                   }
                 },
@@ -47416,7 +47416,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticStyle: { "margin-top": "5%" } },
+        { staticStyle: { "margin-top": "4%" } },
         [
           _c(
             "b-col",
@@ -47430,7 +47430,9 @@ var render = function() {
                 [
                   _c(
                     "b-form-group",
-                    { attrs: { label: "Поиск работы по специальности:" } },
+                    {
+                      attrs: { label: "<b>Поиск работы по специальности:</b>" }
+                    },
                     [
                       _c("b-form-input", {
                         staticClass: "mb-0 mr-sm-0 mb-sm-0",
