@@ -47382,7 +47382,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "10px" } },
+        { staticClass: "text-center", staticStyle: { "margin-top": "18px" } },
         [
           _c(
             "b-col",
