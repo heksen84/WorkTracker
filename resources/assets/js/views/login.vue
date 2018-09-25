@@ -2,7 +2,7 @@
 <b-container>
     <b-row>
       <b-col class="color-grey">
-      <b-form style="width:330px;margin:auto;margin-top:70px">
+      <b-form style="width:330px;margin:auto;margin-top:90px">
       <h1 class="title-text" style="text-align:center">вход</h1>
 
       <b-form-group label="Логин:">

@@ -47382,7 +47382,7 @@ var render = function() {
       _vm._v(" "),
       _c(
         "b-row",
-        { staticClass: "text-center", staticStyle: { "margin-top": "25px" } },
+        { staticClass: "text-center", staticStyle: { "margin-top": "30px" } },
         [
           _c(
             "b-col",
@@ -47570,7 +47570,7 @@ var render = function() {
                   staticStyle: {
                     width: "330px",
                     margin: "auto",
-                    "margin-top": "70px"
+                    "margin-top": "90px"
                   }
                 },
                 [
