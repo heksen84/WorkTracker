@@ -2,9 +2,9 @@
   color: #5a5a5a;
 }
 
-.title-text {
+#title-text {
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 6px;
   font-weight: 630;
 }

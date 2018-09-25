@@ -47388,13 +47388,13 @@ var render = function() {
             "b-col",
             { attrs: { cols: "12" } },
             [
-              _c("h1", { staticClass: "title-text" }, [_vm._v("ОтБаке")]),
+              _c("h1", { attrs: { id: "title-text" } }, [_vm._v("ОтБаке")]),
               _vm._v(" "),
               _c(
                 "div",
                 {
                   staticStyle: {
-                    "font-size": "150%",
+                    "font-size": "154%",
                     "margin-top": "-14px",
                     "margin-bottom": "17px",
                     "letter-spacing": "5px",
