@@ -1743,16 +1743,28 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-				mounted: function mounted() {},
+        mounted: function mounted() {},
 
-				methods: {
-								hello: function hello() {
-												alert("приветики");
-								}
-				}
-
+        methods: {
+                hello: function hello() {}
+        }
 });
 
 /***/ }),
@@ -47497,9 +47509,7 @@ var render = function() {
                   }
                 },
                 [
-                  _c("h1", { staticStyle: { "text-align": "center" } }, [
-                    _vm._v("Вход")
-                  ]),
+                  _c("h1", { staticClass: "h1-title" }, [_vm._v("Вход")]),
                   _vm._v(" "),
                   _c(
                     "b-form-group",
@@ -47599,21 +47609,68 @@ var render = function() {
     [
       _c(
         "b-row",
-        { staticClass: "text-center" },
         [
           _c(
             "b-col",
-            { staticClass: "greyText" },
+            { staticClass: "color-grey" },
             [
-              _c("br"),
-              _vm._v(" "),
-              _c("h1", [_vm._v("Регистрация")]),
-              _vm._v(" "),
-              _c("br"),
-              _vm._v(" "),
-              _c("b-form-input", {
-                attrs: { type: "text", placeholder: "Enter your name" }
-              })
+              _c(
+                "b-form",
+                {
+                  staticStyle: {
+                    width: "330px",
+                    margin: "auto",
+                    "margin-top": "90px"
+                  }
+                },
+                [
+                  _c("h1", { staticClass: "h1-title" }, [
+                    _vm._v("Регистрация")
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "<b>Логин:</b>" } },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "text",
+                          required: "",
+                          placeholder: "Введите логин"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    { attrs: { label: "<b>Пароль:</b>" } },
+                    [
+                      _c("b-form-input", {
+                        attrs: {
+                          type: "password",
+                          required: "",
+                          placeholder: "Введите пароль"
+                        }
+                      })
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "b-form-group",
+                    { staticClass: "text-center" },
+                    [
+                      _c("b-button", { attrs: { variant: "success" } }, [
+                        _vm._v("Продолжить")
+                      ])
+                    ],
+                    1
+                  )
+                ],
+                1
+              )
             ],
             1
           )

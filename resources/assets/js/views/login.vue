@@ -3,7 +3,7 @@
     <b-row>
       <b-col class="color-grey">
       <b-form style="width:330px;margin:auto;margin-top:90px">
-      <h1 style="text-align:center">Вход</h1>
+      <h1 class="h1-title">Вход</h1>
 
       <b-form-group label="<b>Логин:</b>">
         <b-form-input type="text" required placeholder="Введите логин">
