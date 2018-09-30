@@ -9,7 +9,7 @@
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>Предложить работу в Казахстане</title>
-  <link rel="icon" href="{{ asset('public/shop.ico') }}">
+  <link rel="icon" href="{{ asset('public/img/Kazakhstan.png') }}">
 </head>
 <body>
 <div id="app">
