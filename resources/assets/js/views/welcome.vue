@@ -1,10 +1,14 @@
 <template>
 <b-container class="color-grey">
-
 <div>
   <b-navbar toggleable>
-    <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
+    <b-navbar-toggle target="nav_dropdown_collapse">МЕНЮ</b-navbar-toggle>
     <b-collapse is-nav id="nav_dropdown_collapse">
+
+			<b-navbar-nav>
+				<b-nav-item href="https://sellbuy.kz"><b>Объявления КупиПродай</b></b-nav-item>
+			</b-navbar-nav>
+
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="login">Войти</b-nav-item>
         <b-nav-item href="register">Регистрация</b-nav-item>
@@ -13,6 +17,7 @@
     </b-collapse>
   </b-navbar>
 </div>
+
 
 <b-row class="text-center" style="margin-top:20px">
  <b-col cols="12">

@@ -1815,6 +1815,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -47279,14 +47284,28 @@ var render = function() {
             "b-navbar",
             { attrs: { toggleable: "" } },
             [
-              _c("b-navbar-toggle", {
-                attrs: { target: "nav_dropdown_collapse" }
-              }),
+              _c(
+                "b-navbar-toggle",
+                { attrs: { target: "nav_dropdown_collapse" } },
+                [_vm._v("МЕНЮ")]
+              ),
               _vm._v(" "),
               _c(
                 "b-collapse",
                 { attrs: { "is-nav": "", id: "nav_dropdown_collapse" } },
                 [
+                  _c(
+                    "b-navbar-nav",
+                    [
+                      _c(
+                        "b-nav-item",
+                        { attrs: { href: "https://sellbuy.kz" } },
+                        [_c("b", [_vm._v("Объявления КупиПродай")])]
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
                   _c(
                     "b-navbar-nav",
                     { staticClass: "ml-auto" },
