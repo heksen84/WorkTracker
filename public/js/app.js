@@ -47300,7 +47300,13 @@ var render = function() {
                       _c(
                         "b-nav-item",
                         { attrs: { href: "https://sellbuy.kz" } },
-                        [_c("b", [_vm._v("Объявления КупиПродай")])]
+                        [
+                          _c(
+                            "span",
+                            { staticStyle: { color: "rgb(100,100,200)" } },
+                            [_vm._v("Объявления КупиПродай")]
+                          )
+                        ]
                       )
                     ],
                     1
