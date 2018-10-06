@@ -19,7 +19,7 @@
 </div>
 
 
-<b-row class="text-center" style="margin-top:20px">
+<b-row class="text-center" style="margin-top:15px">
  <b-col cols="12">
 	<h1 id="title-text">ОтБаке</h1>
 	<div style="font-size:154%;margin-top:-10px;margin-bottom:17px;letter-spacing:5px;color:rgb(90,90,90);font-weight:400">Сайт где есть работа</div>
