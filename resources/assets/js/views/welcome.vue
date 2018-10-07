@@ -6,7 +6,7 @@
     <b-collapse is-nav id="nav_dropdown_collapse">
 
 			<b-navbar-nav>
-				<b-nav-item href="https://sellbuy.kz"><span style="color:rgb(100,100,200)">Объявления КупиПродай</span></b-nav-item>
+				<b-nav-item href="https://flymart24.kz"><span style="color:rgb(100,100,200)">Объявления FlyMart24</span></b-nav-item>
 			</b-navbar-nav>
 
       <b-navbar-nav class="ml-auto">

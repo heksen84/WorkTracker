@@ -47299,12 +47299,12 @@ var render = function() {
                     [
                       _c(
                         "b-nav-item",
-                        { attrs: { href: "https://sellbuy.kz" } },
+                        { attrs: { href: "https://flymart24.kz" } },
                         [
                           _c(
                             "span",
                             { staticStyle: { color: "rgb(100,100,200)" } },
-                            [_vm._v("Объявления КупиПродай")]
+                            [_vm._v("Объявления FlyMart24")]
                           )
                         ]
                       )
